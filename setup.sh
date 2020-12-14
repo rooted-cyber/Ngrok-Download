@@ -29,6 +29,7 @@ se() {
 		apt install --fix-broken
 		cd ~/Ngrok-Download
 		cd files
+		mkdir ngrok
 		dpkg -i *deb
 		echo "complete" >> $PREFIX/ngrok-setup
 		clear
